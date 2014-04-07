@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FusedLocationProviderActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+    <EditText
+        android:id="@+id/Latitude"
+        android:hint="Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="39dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/Longitude"
+        android:hint="Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Latitude"
+        android:layout_below="@+id/Latitude"
+        android:layout_marginTop="49dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/City"
+        android:hint="City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Longitude"
+        android:layout_below="@+id/Longitude"
+        android:layout_marginTop="46dp"
+        android:ems="10" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/City"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/City"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
