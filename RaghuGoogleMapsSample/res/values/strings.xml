@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RaghuGoogleMapsSample</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="map_type">Map Type</string>
+    <string name="zoom_control">Zoom Control</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="compass_control">Compass Control</string>
+    <string name="gesture_control">Gesture Control</string>
+    <string name="hyderabad">Hyderabad</string>
+    <string name="zoom_gesture">Zoom Gesture</string>
+    <string name="scroll_gesture">Scroll Gesture</string>
+    <string name="tilt_gesture">Tilt Gesture</string>
+    <string name="rotate_gesture">Rotate Gesture</string>
+    <string-array name="gesture_array">
+        <item >@string/zoom_gesture</item>
+        <item >@string/scroll_gesture</item>
+        <item >@string/tilt_gesture</item>
+        <item >@string/rotate_gesture</item>
+    </string-array>
+
+</resources>

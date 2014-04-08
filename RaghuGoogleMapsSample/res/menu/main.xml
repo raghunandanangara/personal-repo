@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_MapType"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/map_type"/>
+    
+    <item
+        android:id="@+id/menu_ZoomControl"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/zoom_control"/>
+    
+    <item
+        android:id="@+id/menu_ZoomIn"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/zoom_in"/>
+        
+    <item
+        android:id="@+id/menu_ZoomOut"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/zoom_out"/>
+    
+    <item
+        android:id="@+id/menu_CompassControl"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/compass_control"/>
+    
+    <item
+        android:id="@+id/menu_GestureControl"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/gesture_control"/>
+    
+    <item
+        android:id="@+id/menu_Hyderabad"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/hyderabad"/>
+
+</menu>
